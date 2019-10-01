@@ -1,0 +1,179 @@
+/* FIRST ITERATION */
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Tera&display=swap');
+body.jing-1 {
+
+  background: #ffff00 ;
+  font-family: 'Alfa Slab One', cursive;
+  margin: 1em ;
+  text-align: center;
+  font-size: 30px;
+  
+}
+body.jing-1 .one {
+  font-family:'Alfa Slab One', cursive;
+  font-size: ;
+  font-weight: ;
+  text-decoration: ;
+  text-align: ;
+  padding: ;
+  color: ;
+  opacity: ;
+}
+
+body.jing-1 .two {
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  text-decoration: ;
+  text-align: left;
+  color: ;
+  opacity: ;
+  margin: 0;
+  padding:0;
+    
+}
+body.jing-1 .three{
+  font-family: ;
+  font-size: 80px;
+  font-weight: ;
+  text-decoration: ;
+  text-align: right;
+  padding: ;
+  color: ;
+  opacity: ;
+  position: relative;
+  margin: 0;
+  padding:0;
+
+
+}
+
+
+/* SECOND ITERATION */
+
+
+body.jing-2 {
+  font-family: 'Lexend Tera', sans-serif;
+  font-size: ;
+  font-weight: ;
+  text-decoration: ;
+  text-align: ;
+  padding: ;
+  color: white;
+  opacity: ;
+  background: #000000 ;
+  position: relative;
+  margin:5em
+  
+
+}
+body.jing-2 .one {
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  text-decoration: ;
+  text-align: ;
+  padding: ;
+  color: ;
+    position: relative;
+
+  opacity: ;
+}
+body.jing-2 .two {
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  text-decoration: ;
+  text-align: ;
+  padding-top:2em ;
+  color: ;
+    position: relative;
+
+
+  opacity: ;
+}
+body.jing-2 .three{
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  text-decoration: line-through;
+  text-align: ;
+  padding: ;
+  color: ;
+  margin: 7em;
+  opacity: ;
+}
+
+
+/* THIRD ITERATION */
+
+
+body.jing-3 {
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  text-decoration: ;
+  text-align: ;
+  padding: ;
+  color:  white;
+  opacity: ;
+  background: #000000 ;
+    
+}
+
+body.jing-3 .one {
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  text-decoration: ;
+  text-align: center;
+  padding: ;
+  color: ;
+  opacity: ;
+}
+
+body.jing-3 .two {
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  text-decoration: ;
+  text-align: ;
+  padding: ;
+  color: ;
+  opacity: ;
+  padding-top: 10em;
+
+
+}
+
+body.jing-3 .three{
+  padding-top: 3em;
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  text-decoration: ;
+  text-align: ;
+  padding-right: 1em;
+  color: ;
+  opacity: ;
+  position: relative;
+  float: right;
+  animation: flash 0.3s ease infinite;
+
+}
+@keyframes flash {
+   0%, 50%, 100% {
+      opacity: 1;
+   }
+   25%, 75% {
+      opacity: 0;
+   }
+}
+
+body.jing-3 .three:nth-child(even){
+  padding-left: 7em;
+  padding-top: 2em;
+  animation-delay: 0.2s;
+
+}
